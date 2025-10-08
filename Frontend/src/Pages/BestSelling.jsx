@@ -1,12 +1,10 @@
 import React, { useRef } from "react";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
-import { useNavigate } from "react-router-dom";
 import { products } from "../Data/BestSellingProducts";
 import ProductCard from "../Components/ProductCard";
 
 const BestSelling = () => {
   const containerRef = useRef(null);
-  const navigate = useNavigate();
   const scrollAmount = 250;
 
   const scroll = (dir) => {
@@ -18,9 +16,7 @@ const BestSelling = () => {
     });
   };
 
-  const handleProductClick = () => {
-    navigate("/contact");
-  };
+  
 
   return (
     <div className="max-w-7xl mx-auto py-12 px-4">
@@ -37,7 +33,6 @@ const BestSelling = () => {
             <div
               key={p.id}
               className="flex-shrink-0 w-72 sm:w-1/2 md:w-1/4 cursor-pointer"
-              onClick={handleProductClick}
             >
               <ProductCard product={p} />
             </div>

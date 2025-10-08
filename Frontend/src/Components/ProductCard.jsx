@@ -1,11 +1,19 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const ProductCard = ({ product }) => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/contact');
+  };
+
   return (
-    <div className="relative flex-shrink-0 w-60 md:w-72 bg-white rounded-xl shadow-md hover:shadow-2xl border border-gray-100 transition-all duration-300 ease-in-out overflow-hidden cursor-pointer">
-      
-      <div className="relative w-full h-56 overflow-hidden">
-        
+    <div
+      onClick={handleClick}
+      className="relative w-full max-w-xs bg-white rounded-xl shadow-md hover:shadow-2xl border border-gray-100 transition-all duration-300 ease-in-out overflow-hidden cursor-pointer mx-auto"
+    >
+      <div className="relative w-full h-60 sm:h-72 overflow-hidden">
         <img
           src={product.image}
           alt={product.name}
