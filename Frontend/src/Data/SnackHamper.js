@@ -1,0 +1,51 @@
+export const snackHampers = [
+  {
+    id: 201,
+    name: 'The Classic Crunch Box',
+    price: 1899,
+    description: 'A satisfying collection of all-time favorite savory snacks. Perfect for any occasion, packed with premium nuts, gourmet chips, and savory bites.',
+    image: 'https://plus.unsplash.com/premium_photo-1664392060728-b3d48714c0b8?q=80&w=761&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    hoverImage: 'https://images.unsplash.com/photo-1607687441768-7276f3686acd?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  },
+  {
+    id: 202,
+    name: 'Sweet Tooth Delight',
+    price: 2299,
+    description: 'An irresistible assortment for the dessert lover. This hamper is overflowing with artisanal chocolates, decadent cookies, and gourmet candies.',
+    image: 'https://images.unsplash.com/photo-1724072013765-bb4773d63d6d?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    hoverImage: 'https://images.unsplash.com/photo-1635748501948-fd6ef8ca7812?q=80&w=654&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  },
+  {
+    id: 203,
+    name: 'Healthy Bites Hamper',
+    price: 2599,
+    description: 'A guilt-free indulgence! This wellness-focused hamper is filled with nutritious and delicious snacks like granola bars, dried fruits, and mixed seeds.',
+    image: 'https://images.unsplash.com/photo-1734773487516-078839ea277f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    hoverImage: 'https://images.unsplash.com/photo-1654897161702-2854c508334d?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  },
+  {
+    id: 204,
+    name: 'Gourmet Indulgence Basket',
+    price: 4299,
+    description: 'Experience luxury with our premium selection of artisanal cheeses, olives, gourmet crackers, and exotic nuts. The ultimate treat for a discerning palate.',
+    image: 'https://images.unsplash.com/photo-1673705988622-18d05a5cf293?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    hoverImage: 'https://images.unsplash.com/photo-1677843969396-c653089bb28e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  },
+  {
+    id: 205,
+    name: 'Movie Night Marathon Box',
+    price: 1999,
+    description: 'Everything you need for the perfect movie night! This fun-filled box includes gourmet popcorn, classic candies, savory chips, and refreshing beverages.',
+    image: 'https://images.unsplash.com/photo-1577239458058-b179bc7479bf?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    hoverImage: 'https://images.unsplash.com/photo-1543536448-d209d2d13a1c?q=80&w=1200&auto=format&fit=crop',
+  },
+  {
+    id: 206,
+    name: 'Chai Time Favorites',
+    price: 1799,
+    description: 'The perfect companion for a cup of tea. This hamper brings together traditional Indian snacks with premium teas and classic butter cookies.',
+    image: 'https://images.unsplash.com/photo-1701416427271-b91929517c0c?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    hoverImage: 'https://images.unsplash.com/photo-1612973289973-ea3efb174fb6?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  },
+
+];
