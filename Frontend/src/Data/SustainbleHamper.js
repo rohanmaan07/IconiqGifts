@@ -1,0 +1,42 @@
+export const sustainableHampers = [
+  {
+    id: 101,
+    name: 'The Green Start Hamper',
+    price: 2499,
+    description: 'An ideal welcome gift to introduce simple, sustainable swaps into daily life, featuring essentials like a bamboo cup, jute tote bag, and plantable stationery.',
+    image: 'https://images.unsplash.com/photo-1669028415970-4453cb78d213?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    hoverImage: 'https://images.unsplash.com/photo-1610334186323-cb576f50137f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  },
+  {
+    id: 102,
+    name: 'The Mindful Desk Hamper',
+    price: 2999,
+    description: 'Curated to transform any desk into a serene and eco-conscious workspace. A perfect gift to promote wellness and focus with a succulent plant, soy wax candle, and more.',
+    image: 'https://images.unsplash.com/photo-1579660795247-4cee9f39331a?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    hoverImage: 'https://images.unsplash.com/photo-1633113212423-dc2828784c7e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  },
+  {
+    id: 103,
+    name: 'The Gourmet Eco-Box',
+    price: 3799,
+    description: 'A luxurious collection of organic and artisanal treats, presented with sustainability in mind. An exquisite choice for thanking top clients or celebrating milestones.',
+    image: 'https://images.unsplash.com/photo-1719622144274-2408ecf6f6d9?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    hoverImage: 'https://images.unsplash.com/photo-1719622144233-7f4a09ee199b?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  },
+  {
+    id: 104,
+    name: 'Eco-Wellness Kit',
+    price: 2650,
+    description: 'A rejuvenating package of all-natural personal care essentials. Encourages moments of calm and self-care, the sustainable way with handmade soaps and wellness items.',
+    image: 'https://images.unsplash.com/photo-1664005578147-e11f270bd772?q=80&w=727&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    hoverImage: 'https://images.unsplash.com/photo-1662601618863-183cb68b07bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  },
+  {
+    id: 105,
+    name: 'The Conscious Coffee Break',
+    price: 3299,
+    description: 'Elevate the coffee ritual with this eco-friendly kit. Featuring artisanal beans, a reusable cup, and accessories for the perfect sustainable brew.',
+    image: 'https://images.unsplash.com/photo-1670515854747-3d9be05927b9?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    hoverImage: 'https://images.unsplash.com/photo-1618263665307-b31318809fae?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  },
+]
