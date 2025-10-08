@@ -17,6 +17,7 @@ import Snacks from "./Hampers/Snacks";
 import Stationary from "./Hampers/Stationary";
 import CustomizeBottle from "./Hampers/CustomizeBottle";
 import ChoclateFlower from "./Hampers/ChoclateFlower";
+import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
   const [modalType, setModalType] = useState(null);
@@ -27,7 +28,7 @@ function App() {
       {modalType && (
         <EnquiryFormModal type={modalType} onClose={() => setModalType(null)} />
       )}
-
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/gifting" element={<GiftingPage />} />
