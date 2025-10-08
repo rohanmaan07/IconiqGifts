@@ -16,37 +16,27 @@ const clientLogos = [
 ];
 
 const OurClients = () => {
-  const firstRow = clientLogos.slice(0, 5);
-  const secondRow = clientLogos.slice(5, 10);
-
   return (
     <section className="bg-gray-50 py-12">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-black mb-4 text-center">
           Our Client Partners
         </h2>
-        <span className="block w-24 h-1 bg-teal-500 mx-auto  rounded-full mb-5"></span>
+        <span className="block w-24 h-1 bg-teal-500 mx-auto rounded-full mb-5"></span>
         <p className="text-center text-gray-600 mb-10">
           Meet our friends who have embraced our gifting solutions
         </p>
-        <div className="grid grid-cols-5 gap-6 items-center justify-items-center mb-6">
-          {firstRow.map((logo, index) => (
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 items-center justify-items-center">
+          {clientLogos.map((logo, index) => (
             <div 
               key={index} 
-              className="bg-white p-4 rounded-lg shadow-md flex items-center justify-center hover:scale-105 transition-transform duration-300"
+              className="bg-white p-6 rounded-xl shadow-md flex items-center justify-center hover:scale-105 transition-transform duration-300 w-full"
             >
-              <img src={logo} alt={`Client ${index + 1}`} className="h-24 w-auto object-contain" />
-            </div>
-          ))}
-        </div>
-
-        <div className="grid grid-cols-5 gap-6 items-center justify-items-center">
-          {secondRow.map((logo, index) => (
-            <div 
-              key={index} 
-              className="bg-white p-4 rounded-lg shadow-md flex items-center justify-center hover:scale-105 transition-transform duration-300"
-            >
-              <img src={logo} alt={`Client ${index + 6}`} className="h-24 w-auto object-contain" />
+              <img
+                src={logo}
+                alt={`Client ${index + 1}`}
+                className="h-24 sm:h-28 md:h-32 w-auto object-contain"
+              />
             </div>
           ))}
         </div>
