@@ -22,6 +22,10 @@ import Category from "./Pages/Category";
 import EmployeeGifts from "./Gifts/EmployeeGifts";
 import ClientGifts from "./Gifts/ClientGifts";
 import Premium from "./Gifts/Premium";
+import Ocassion from "./Ocassion/Ocassion";
+import Anniversary from "./Ocassion/Anniversary";
+import Holidays from "./Ocassion/Holidays";
+import Festivals from "./Ocassion/Festivals";
 
 function App() {
   const [modalType, setModalType] = useState(null);
@@ -51,6 +55,10 @@ function App() {
         <Route path="/employees" element={<EmployeeGifts/>}/>
         <Route path="/clients" element={<ClientGifts/>}/>
         <Route path="/premium" element={<Premium/>}/>
+        <Route path="/occasion" element={<Ocassion/>}/>
+        <Route path="/anniversary" element={<Anniversary/>}/>
+        <Route path="/holidays" element={<Holidays/>}/>
+        <Route path="/festivals" element={<Festivals/>}/>
         
         
       </Routes>
