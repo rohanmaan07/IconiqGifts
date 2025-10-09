@@ -10,7 +10,7 @@ const ProductCard = ({ product }) => {
 
   return (
     <div
-      onClick={handleClick}
+      onClick={handleClick} 
       className="relative w-full max-w-xs bg-white rounded-xl shadow-md hover:shadow-2xl border border-gray-100 transition-all duration-300 ease-in-out overflow-hidden cursor-pointer mx-auto"
     >
       <div className="relative w-full h-60 sm:h-72 overflow-hidden">
