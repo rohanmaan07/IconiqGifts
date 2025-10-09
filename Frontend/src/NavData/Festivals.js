@@ -1,0 +1,42 @@
+export const festivalGifts = [
+  {
+    id: 801,
+    name: 'The Diwali Sparkle Hamper',
+    price: 3999,
+    description: 'A radiant collection to brighten up Diwali celebrations. Includes handcrafted diyas, a box of assorted kaju sweets, premium nuts, and elegant home décor.',
+    image: 'https://images.unsplash.com/photo-1580856048355-738d0d416692?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    hoverImage: 'https://images.unsplash.com/photo-1591076077107-f06788d76427?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  },
+  {
+    id: 802,
+    name: 'Holi Celebration Kit',
+    price: 2199,
+    description: 'Everything needed for a vibrant and fun-filled Holi. This kit contains organic gulal (colors), a stylish pichkari (water gun), traditional gujiyas, and thandai mix.',
+    image: 'https://images.unsplash.com/photo-1736788268738-79afa3312430?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    hoverImage: 'https://images.unsplash.com/photo-1626663082675-6be9ee82c4ba?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  },
+  {
+    id: 804,
+    name: 'Raksha Bandhan Sibling Love',
+    price: 1899,
+    description: 'A perfect expression of sibling love for Raksha Bandhan. This box includes an elegant rakhi, a box of luxury chocolates, and a personalized photo frame.',
+    image: 'https://images.unsplash.com/photo-1668276453706-3c80ddcc41a5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    hoverImage: 'https://images.unsplash.com/photo-1590052210004-8935aa660ff2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  },
+  {
+    id: 805,
+    name: 'Grand Indian Festive Box',
+    price: 6499,
+    description: 'A versatile and luxurious hamper that captures the essence of all Indian festivals. It contains a mix of gourmet sweets, savory snacks, silver-plated accessories, and more.',
+    image: 'https://images.unsplash.com/photo-1740511399793-de4228aba8a7?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    hoverImage: 'https://images.unsplash.com/photo-1665249639961-e9bbfe59afe4?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  },
+  {
+    id: 806,
+    name: 'Sweet Traditions Basket',
+    price: 2599,
+    description: 'A delightful assortment of authentic Indian sweets (mithai). Perfect for any festive occasion, this basket includes motichoor ladoo, anjeer barfi, and milk cake.',
+    image: 'https://plus.unsplash.com/premium_photo-1661602175032-72ed763d28f8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    hoverImage: 'https://plus.unsplash.com/premium_photo-1661431434667-fcb611219d1f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+  },
+];
