@@ -18,6 +18,10 @@ import Stationary from "./Hampers/Stationary";
 import CustomizeBottle from "./Hampers/CustomizeBottle";
 import ChoclateFlower from "./Hampers/ChoclateFlower";
 import ScrollToTop from "./Components/ScrollToTop";
+import Category from "./Pages/Category";
+import EmployeeGifts from "./Gifts/EmployeeGifts";
+import ClientGifts from "./Gifts/ClientGifts";
+import Premium from "./Gifts/Premium";
 
 function App() {
   const [modalType, setModalType] = useState(null);
@@ -43,6 +47,12 @@ function App() {
         <Route path="/stationery-hampers" element={<Stationary/>}/>
         <Route path="/customized-bottles" element={<CustomizeBottle/>}/>
         <Route path="/chocolate-flower-hampers" element={<ChoclateFlower/>}/>
+        <Route path="/category" element={<Category/>}/>
+        <Route path="/employees" element={<EmployeeGifts/>}/>
+        <Route path="/clients" element={<ClientGifts/>}/>
+        <Route path="/premium" element={<Premium/>}/>
+        
+        
       </Routes>
 
       <Footer />

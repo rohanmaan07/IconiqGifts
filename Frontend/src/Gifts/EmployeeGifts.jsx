@@ -3,7 +3,7 @@ import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import {employeeGifts} from '../NavData/Employee'; 
 import ProductCard from '../Components/ProductCard';
 
-const ClientGifts = () => {
+const EmployeeGifts = () => {
   const containerRef = useRef(null);
   const scrollAmount = 250;
 
@@ -57,4 +57,4 @@ const ClientGifts = () => {
   );
 };
 
-export default ClientGifts;
+export default EmployeeGifts;
