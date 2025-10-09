@@ -1,8 +1,13 @@
 import React from 'react'
+import ClientGifts from '../Gifts/ClientGifts'
+import EmployeeGifts from '../Gifts/EmployeeGifts'
 
 function GiftingPage() {
   return (
-    <div>GiftingPage</div>
+    <>
+    <ClientGifts/>
+    <EmployeeGifts/>
+    </>
   )
 }
 
