@@ -37,8 +37,8 @@ const Navbar = ({ onOpenModal }) => {
     { text: "Download Catalogue", type: "catalogue" },
     { text: "Request a call back", type: "callback" },
     {
-      text: "yashsharma46655@gmail.com",
-      href: "mailto:yashsharma46655@gmail.com",
+      text: "mailbox@iconiqgifts.in",
+      href: "mailto:mailbox@iconiqgifts.in",
       isEmail: true,
     },
   ];
@@ -121,8 +121,6 @@ const Navbar = ({ onOpenModal }) => {
           </div>
         </div>
       </div>
-
-      {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="md:hidden px-2 pt-2 pb-3 space-y-1 sm:px-3">
           {navLinks.map((link) => (
