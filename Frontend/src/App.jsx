@@ -26,6 +26,7 @@ import Ocassion from "./Ocassion/Ocassion";
 import Anniversary from "./Ocassion/Anniversary";
 import Holidays from "./Ocassion/Holidays";
 import Festivals from "./Ocassion/Festivals";
+import Homee from "./example/homee";
 
 function App() {
   const [modalType, setModalType] = useState(null);
@@ -59,10 +60,8 @@ function App() {
         <Route path="/anniversary" element={<Anniversary/>}/>
         <Route path="/holidays" element={<Holidays/>}/>
         <Route path="/festivals" element={<Festivals/>}/>
-        
-        
       </Routes>
-
+      {/* <Homee/> */}
       <Footer />
     </>
   );
