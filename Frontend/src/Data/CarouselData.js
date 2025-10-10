@@ -1,7 +1,7 @@
-import banner1 from "/Banners/1.avif";
-import banner2 from "/Banners/2.avif";
-import banner3 from "/Banners/3.avif";
-import banner4 from "/Banners/4.png";
+import banner1 from "/Banners/5.png";
+import banner2 from "/Banners/6.png";
+import banner3 from "/Banners/7.png";
+import banner4 from "/Banners/8.png";
 
 export const carouselData = [
   {
