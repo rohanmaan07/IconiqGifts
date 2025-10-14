@@ -1,6 +1,6 @@
 import ScrollImageSection from "./ScrollImageSection";
 
-export default function Homee() {
+export default function Homeee() {
   return (
     <main>
       <ScrollImageSection />
