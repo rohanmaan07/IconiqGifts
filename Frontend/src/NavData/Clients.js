@@ -1,6 +1,6 @@
 export const clientGifts = [
   {
-    id: 401,
+    id: 701,
     name: 'The Executive Gourmet Hamper',
     price: 5499,
     description: 'An exquisite selection of fine foods to impress your most valued clients. Features artisanal cheese, imported olives, gourmet crackers, and fine preserves.',
@@ -8,7 +8,7 @@ export const clientGifts = [
     hoverImage: 'https://images.unsplash.com/photo-1582650365442-361d4b560dd6?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
-    id: 402,
+    id: 702,
     name: 'The Legacy Collection',
     price: 7999,
     description: 'A statement of pure class. This gift set includes a premium leather-bound journal, an elegant fountain pen, and a personalized leather cardholder.',
@@ -16,7 +16,7 @@ export const clientGifts = [
     hoverImage: 'https://images.unsplash.com/photo-1647541707040-9d0bd1bf818d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
-    id: 403,
+    id: 703,
     name: 'The Connoisseur\'s Choice',
     price: 6599,
     description: 'For the client with refined taste. This hamper features a bottle of fine non-alcoholic wine, a set of crystal glasses, and premium dark chocolates.',
@@ -24,7 +24,7 @@ export const clientGifts = [
     hoverImage: 'https://images.unsplash.com/photo-1759563874663-1c8f3ef40302?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
-    id: 404,
+    id: 704,
     name: 'The Green Signature',
     price: 4999,
     description: 'A sophisticated and sustainable gift. Includes a bamboo-finish wireless speaker, a solar-powered charger, and a set of plantable seed paper stationery.',
@@ -32,7 +32,7 @@ export const clientGifts = [
     hoverImage: 'https://images.unsplash.com/photo-1657159811523-406280bfd128?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
-    id: 405,
+    id: 705,
     name: 'The Chairman\'s Reserve',
     price: 9999,
     description: 'The ultimate gesture of appreciation. An opulent hamper featuring silver-plated cufflinks, a luxury desk clock, and a curated selection of exotic dry fruits.',
@@ -40,7 +40,7 @@ export const clientGifts = [
     hoverImage: 'https://plus.unsplash.com/premium_photo-1674581932358-83465e0ea51c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
-    id: 406,
+    id: 706,
     name: 'The Partner\'s Desk Set',
     price: 5899,
     description: 'An elegant set of desk accessories to adorn a partner\'s office. Includes a leather desk mat, a brass paperweight, and a premium pen stand.',
