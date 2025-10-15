@@ -26,7 +26,8 @@ import Ocassion from "./Ocassion/Ocassion";
 import Anniversary from "./Ocassion/Anniversary";
 import Holidays from "./Ocassion/Holidays";
 import Festivals from "./Ocassion/Festivals";
-import Homee from "./example/homee";
+import ProductDetails from "./Components/ProductDetails";
+// import Homee from "./example/homeee";
 
 function App() {
   const [modalType, setModalType] = useState(null);
@@ -37,29 +38,30 @@ function App() {
       {modalType && (
         <EnquiryFormModal type={modalType} onClose={() => setModalType(null)} />
       )}
-      <ScrollToTop/>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/gifting" element={<GiftingPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/about" element={<AboutPage />} />
-        <Route path="/faqs" element={<FAQs/>}/>
+        <Route path="/faqs" element={<FAQs />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/:slug" element={<BlogPostPage />} />
-        <Route path="/sustainable-hampers" element={<Sustainable/>}/>
-        <Route path="/tech-hampers" element={<Tech/>}/>
-        <Route path="/snack-hampers" element={<Snacks/>}/>
-        <Route path="/stationery-hampers" element={<Stationary/>}/>
-        <Route path="/customized-bottles" element={<CustomizeBottle/>}/>
-        <Route path="/chocolate-flower-hampers" element={<ChoclateFlower/>}/>
-        <Route path="/category" element={<Category/>}/>
-        <Route path="/employees" element={<EmployeeGifts/>}/>
-        <Route path="/clients" element={<ClientGifts/>}/>
-        <Route path="/premium" element={<Premium/>}/>
-        <Route path="/occasion" element={<Ocassion/>}/>
-        <Route path="/anniversary" element={<Anniversary/>}/>
-        <Route path="/holidays" element={<Holidays/>}/>
-        <Route path="/festivals" element={<Festivals/>}/>
+        <Route path="/sustainable-hampers" element={<Sustainable />} />
+        <Route path="/tech-hampers" element={<Tech />} />
+        <Route path="/snack-hampers" element={<Snacks />} />
+        <Route path="/stationery-hampers" element={<Stationary />} />
+        <Route path="/customized-bottles" element={<CustomizeBottle />} />
+        <Route path="/chocolate-flower-hampers" element={<ChoclateFlower />} />
+        <Route path="/category" element={<Category />} />
+        <Route path="/employees" element={<EmployeeGifts />} />
+        <Route path="/clients" element={<ClientGifts />} />
+        <Route path="/premium" element={<Premium />} />
+        <Route path="/occasion" element={<Ocassion />} />
+        <Route path="/anniversary" element={<Anniversary />} />
+        <Route path="/holidays" element={<Holidays />} />
+        <Route path="/festivals" element={<Festivals />} />
+        <Route path="/product/:productId" element={<ProductDetails/>} />
       </Routes>
       {/* <Homee/> */}
       <Footer />
