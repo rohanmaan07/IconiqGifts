@@ -1,6 +1,6 @@
 export const employeeGifts = [
   {
-    id: 301,
+    id: 801,
     name: 'The Welcome Aboard Kit',
     price: 2499,
     description: 'Make new hires feel instantly welcome with this essential onboarding kit. Packed with branded goodies and desk essentials to kickstart their journey.',
@@ -8,7 +8,7 @@ export const employeeGifts = [
     hoverImage: 'https://images.unsplash.com/photo-1676888010775-06d8468567af?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
-    id: 302,
+    id: 802,
     name: 'Desk Warrior Tech Kit',
     price: 3899,
     description: 'Upgrade their workspace with must-have tech accessories. This kit includes a wireless charger, premium mousepad, and a cable organizer to boost productivity.',
@@ -16,7 +16,7 @@ export const employeeGifts = [
     hoverImage: 'https://images.unsplash.com/photo-1653412453468-3001356894e4?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
-    id: 303,
+    id: 803,
     name: 'Mindful Moments Box',
     price: 2999,
     description: 'A thoughtful collection to promote wellness and relaxation. Featuring an aroma diffuser, gourmet green tea, and a calming journal for a peaceful break.',
@@ -24,7 +24,7 @@ export const employeeGifts = [
     hoverImage: 'https://images.unsplash.com/photo-1609875133730-1c3b2dad18d0?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
-    id: 304,
+    id: 804,
     name: 'WFH Comfort Kitt',
     price: 3299,
     description: 'Enhance the remote work experience. This kit includes a comfortable neck pillow, a coffee mug warmer, and cozy socks for ultimate home office comfort.',
@@ -32,7 +32,7 @@ export const employeeGifts = [
     hoverImage: 'https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
-    id: 305,
+    id: 805,
     name: 'Milestone Celebration Box',
     price: 2699,
     description: 'Celebrate achievements in style! A festive box with non-alcoholic sparkling juice, gourmet chocolates, and a personalized trophy to honor their success.',
@@ -40,7 +40,7 @@ export const employeeGifts = [
     hoverImage: 'https://images.unsplash.com/photo-1572065891856-4abe029cf2ad?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
-    id: 306,
+    id: 806,
     name: 'The Daily Grind',
     price: 2199,
     description: 'For the coffee and tea aficionados. This hamper features artisanal coffee beans, exotic teas, a classic French press, and premium biscuits.',
