@@ -1,6 +1,6 @@
 export const techHampers = [
   {
-    id: 201,
+    id: 601,
     name: 'The Tech Eco Hamper',
     price: 4999,
     description: 'A sustainable tech gift set including a bamboo wireless mouse, biodegradable phone case, and eco-friendly charging cables. Perfect for tech lovers who care for the planet.',
@@ -8,7 +8,7 @@ export const techHampers = [
     hoverImage: 'https://plus.unsplash.com/premium_photo-1664391981404-e967ba892804?q=80&w=681&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
-    id: 202,
+    id: 602,
     name: 'Smart Workstation Kit',
     price: 5499,
     description: 'Eco-friendly tech kit for a productive workspace: includes a solar-powered desk lamp, bamboo keyboard, and recycled notebook.',
@@ -16,7 +16,7 @@ export const techHampers = [
     hoverImage: 'https://images.unsplash.com/photo-1624526807889-fb20fd26970b?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
-    id: 203,
+    id: 603,
     name: ' Gamer Pack',
     price: 5999,
     description: 'Sustainable gaming set with a biodegradable gaming mouse pad, eco-conscious headset stand, and energy-efficient RGB lights.',
@@ -24,7 +24,7 @@ export const techHampers = [
     hoverImage: 'https://images.unsplash.com/photo-1638349693988-beedf009e9fe?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
-    id: 204,
+    id: 604,
     name: 'Eco Tech Organizer',
     price: 4299,
     description: 'Keep gadgets sustainable and organized with this tech organizer including bamboo cable holders, recycled fabric pouch, and solar USB charger.',
@@ -32,7 +32,7 @@ export const techHampers = [
     hoverImage: 'https://images.unsplash.com/photo-1643208589858-444e42c4c95e?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
-    id: 205,
+    id: 605,
     name: 'Sustainable Mobile Kit',
     price: 3499,
     description: 'Eco-conscious mobile accessories: biodegradable phone case, bamboo stylus pen, and eco-friendly screen cleaner kit.',
