@@ -78,7 +78,7 @@ const FAQs = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-5xl font-extrabold mb-12 relative inline-block"
+          className="text-4xl sm:text-6xl font-caveat font-extrabold mb-12 relative inline-block"
         >
           Frequently Asked Questions
           <span className="block w-24 h-1 bg-teal-500 mx-auto mt-3 rounded-full"></span>
