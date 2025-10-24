@@ -5,7 +5,7 @@ import { dummyPosts } from '../Data/BlogPost';
 const BlogPage = () => {
   return (
     <div className="container mx-auto px-4 py-5">
-         <h1 className="text-xl md:text-4xl font-bold text-gray-800  text-center">Our Blogs</h1>
+         <h1 className="text-4xl sm:text-6xl font-bold text-gray-800  text-center font-caveat">Our Blogs</h1>
          <span className="block w-24 h-1 bg-teal-500 mx-auto mt-3 rounded-full mb-5"></span>
       <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
         {dummyPosts.map((post) => (
