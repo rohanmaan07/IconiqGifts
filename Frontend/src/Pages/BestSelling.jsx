@@ -16,11 +16,9 @@ const BestSelling = () => {
     });
   };
 
-  
-
   return (
     <div className="max-w-7xl mx-auto py-12 px-4">
-      <h2 className="text-2xl sm:text-3xl font-bold text-center mb-6">
+      <h2 className="text-4xl sm:text-6xl font-bold text-center mb-6 font-caveat">
         Best Selling Gifts
       </h2>
 
