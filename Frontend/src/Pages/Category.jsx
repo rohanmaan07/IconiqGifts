@@ -6,7 +6,7 @@ const Category = () => {
   return (
     <section className="py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-3">
+        <h2 className="text-4xl sm:text-6xl font-caveat font-bold text-center text-gray-800 mb-3">
           Categories
         </h2>
 
