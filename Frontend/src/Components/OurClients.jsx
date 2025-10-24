@@ -19,7 +19,7 @@ const OurClients = () => {
   return (
     <section className="bg-gray-50 py-12">
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="text-4xl font-bold text-black mb-4 text-center">
+        <h2 className="text-4xl sm:text-6xl font-caveat font-bold text-black mb-4 text-center">
           Our Client Partners
         </h2>
         <span className="block w-24 h-1 bg-teal-500 mx-auto rounded-full mb-5"></span>
