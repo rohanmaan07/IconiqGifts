@@ -56,7 +56,7 @@ const ContactPage = () => {
     <div className="bg-gradient-to-br from-gray-50 to-teal-50 py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-extrabold text-gray-900 tracking-tight">
+          <h2 className="text-4xl sm:text-6xl font-caveat font-extrabold text-gray-900 tracking-tight">
             Get in Touch
           </h2>
             <span className="block w-24 h-1 bg-teal-500 mx-auto  rounded-full mb-5"></span>
