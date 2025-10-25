@@ -20,11 +20,11 @@ const OurClients = () => {
     <section className="bg-gray-50 py-12">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-4xl sm:text-6xl font-caveat font-bold text-black mb-4 text-center">
-          Our Client Partners
+          Trusted by Teams
         </h2>
         <span className="block w-24 h-1 bg-teal-500 mx-auto rounded-full mb-5"></span>
         <p className="text-center text-gray-600 mb-10">
-          Meet our friends who have embraced our gifting solutions
+          Building relationships with India’s most promising teams.
         </p>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 items-center justify-items-center">
           {clientLogos.map((logo, index) => (
