@@ -7,7 +7,7 @@ function Premium() {
     <div className="bg-white py-12 sm:py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <h2 className="text-4xl sm:text-6xl font-caveat font-bold tracking-tight text-gray-900 sm:text-4xl">
             Premium Gifts
           </h2>
         </div>
