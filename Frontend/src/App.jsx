@@ -27,6 +27,7 @@ import Anniversary from "./Ocassion/Anniversary";
 import Holidays from "./Ocassion/Holidays";
 import Festivals from "./Ocassion/Festivals";
 import ProductDetails from "./Components/ProductDetails";
+import Solutions from "./Components/Solutions";
 // import Homee from "./example/homeee";
 
 function App() {
@@ -61,6 +62,7 @@ function App() {
         <Route path="/anniversary" element={<Anniversary />} />
         <Route path="/holidays" element={<Holidays />} />
         <Route path="/festivals" element={<Festivals />} />
+        <Route path="/solutions" element={<Solutions />} />
         <Route path="/product/:productId" element={<ProductDetails/>} />
       </Routes>
       {/* <Homee/> */}
