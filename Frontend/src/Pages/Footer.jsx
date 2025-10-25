@@ -39,7 +39,7 @@ const Footer = () => (
       </div>
 
       <div className="mt-12 pt-8 border-t border-gray-700 text-center text-sm">
-        <p>&copy; {new Date().getFullYear()} Iconiq Gifts. All Rights Reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Iconiq Gifts. Thoughtfully Made in India.</p>
         <div className="mt-2">
           <Link to="/privacy-policy" className="hover:text-teal-500 mx-2">Privacy Policy</Link>
           <span>&middot;</span>
