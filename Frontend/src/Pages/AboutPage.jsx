@@ -15,7 +15,7 @@ const AboutPage = () => {
           />
           <div className="relative z-20 text-center p-4">
             <h1
-              className="text-5xl md:text-7xl font-bold tracking-tight text-white mb-4 fade-in-up"
+              className="text-5xl md:text-7xl font-bold tracking-tight text-white mb-4 fade-in-up font-caveat"
               style={{ animationDelay: '0.2s' }}
             >
               Beyond the Giftbox.
