@@ -6,6 +6,7 @@ import FAQs from "../Components/FAQs";
 import BlogPage from "./BlogPage";
 import Corporate from "../Components/Corporate";
 import BestSelling from "./BestSelling";
+import WhyAndProcess from "../Components/WhyAndProcess";
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <HomeCarousel />
       <BestSelling/>
       <Corporate/>
+      <WhyAndProcess/>
        <OurClients/>
       <ContactPage/>
       <FAQs/>
