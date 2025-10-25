@@ -57,11 +57,11 @@ const ContactPage = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl sm:text-6xl font-caveat font-extrabold text-gray-900 tracking-tight">
-            Get in Touch
+            Let’s co-create your gifting experience
           </h2>
             <span className="block w-24 h-1 bg-teal-500 mx-auto  rounded-full mb-5"></span>
           <p className="mt-3 text-lg text-gray-600 max-w-2xl mx-auto">
-            Have a question or a project in mind? We’d love to hear from you.
+           We’ll work with you personally to design, pack, and deliver corporate gifts built around your brand’s personality.
           </p>
         </div>
 
